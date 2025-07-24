@@ -153,6 +153,7 @@ llamafactory-cli train
 --bf16  
 ```
 （4）Inference
+
 Inference datasets also need to be registered within the 'data' directory.
 ```
 llamafactory-cli chat  

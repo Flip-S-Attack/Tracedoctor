@@ -1,7 +1,7 @@
-# Tracedoctor
+# TraceDoctor
 This repository provides example code for our paper "Improving LLM-based Log Parsing by Learning from Errors in Reasoning Traces."
 ```
-Tracedoctor
+TraceDoctor
 ├── Analyzer
 │   ├── cluster_err.py
 │   ├── error_label.py

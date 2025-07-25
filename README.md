@@ -16,6 +16,7 @@ This repository provides example code for our paper "Improving LLM-based Log Par
 ├── README.md
 ├── high-level-error-types.md
 └── requirements.txt
+```
 
 # Installation
 First create a conda environment with Python 3.10:

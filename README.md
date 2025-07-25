@@ -98,7 +98,7 @@ python log_aug.py  --input_file "input.csv"  --output_file "output.json"  --augm
 
   
 
-# Training TraceDoctor
+# Fine-tuning
 
 In our paper, TraceDoctor is implemented by fine-tuning five large language models: [DeepSeek-R1-Distill-Llama-8B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B), [DeepSeek-R1-Distill-Qwen-7B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B), [Qwen3-14B](https://huggingface.co/Qwen/Qwen3-14B), [Phi-4-reasoning-plus](https://huggingface.co/microsoft/Phi-4-reasoning-plus), and [Skywork-o1-Open-Llama-3.1-8B](https://huggingface.co/Skywork/Skywork-o1-Open-Llama-3.1-8B). Thanks to [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) for implementing an efficient tool to fine-tune LLMs. The training steps of TraceDoctor are as follows:
 

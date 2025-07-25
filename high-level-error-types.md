@@ -1,5 +1,5 @@
 
-# LLM Log Parsing Error Types Analysis Report
+# High-level Error Types
 
 ## Overview
 

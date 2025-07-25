@@ -63,7 +63,7 @@ python error_label.py --api_key "your-api-key" --md_summary_path "/path/to/error
 
  (5)  High-Level Semantic Embedding Aggregation
 ```
-python cluster_err.py --openai_api_key "your-openai-api-key" --md_file "/path/to/error_types_analysis.md" --csv_file "/path/to/label.csv" --output_dir "/path/to/output" --similarity_threshold 0.9
+python cluster_err.py --openai_api_key "your-openai-api-key" --openai_base_url https://api.chatanywhere.tech/v1 --md_file "/path/to/error_types_analysis.md" --csv_file "/path/to/label.csv" --output_dir "/path/to/output" --similarity_threshold 0.9
 ```
 
 
@@ -89,7 +89,7 @@ python seeds_select.py --labeled_csv "/path/to/labeled_data.csv" --summary_csv "
 （2）Enhancing data based on three strategies.
 For each augmentation, one strategy is randomly selected from the three available strategies to generate it.
 ```
-python log_aug.py  --input_file "input.csv"  --output_file "output.json"  --augmentation_count 7
+python log_aug.py --api_key "your-deepseek-api-key" --input_file "input.csv" --output_file "output.json" --error_types_file "path/to/error_types.md" --augmentation_count 7
 ```
 
 

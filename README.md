@@ -17,6 +17,7 @@ TraceDoctor
 ├── Model
 │   └── model_download.py
 ├── README.md
+├── high-level-error-types.md
 └── requirements.txt
 ```
 

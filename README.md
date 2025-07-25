@@ -8,9 +8,6 @@ TraceDoctor
 │   ├── error_summary.py
 │   ├── errset.py
 │   └── model_analyzer.py
-├── Datasets
-│   ├── 2k_dataset
-│   └── full_dataset
 ├── Generator
 │   ├── log_aug.py
 │   └── seeds_select.py
